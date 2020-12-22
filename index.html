@@ -1,67 +1,92 @@
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="styles.css" rel="stylesheet">
     <title>Johnathan James</title>
 </head>
+
 <body>
-<div class="container"> 
-<header>
+    <div class="container">
+        <header>
 
-<h1>Johnathan James</h1>   
+            <nav id="navbar">
+                <div class="links"><a href="#welcome-section">About Me</a></div>
+                <div class="links"><a href="#projects">Projects</a></div>
+                <div class="links"><a href="#contact-section">Contact</a></div>
+            </nav>
+        </header>
+        <section id="welcome-section" class="sections">
+          
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Lanikai_2009_wide.jpg"
+                style="margin-top: 5%" />
+                <h1>Johnathan James</h1>
+            <h2>full stack web developer</h2>
+            <article>
+                <p>I am a computer programmer who lives in South Florida. I am able to code web pages with HTML, CSS and
+                    JavaScript. I have been self teaching my self web development the past six months and continue to
+                    hone
+                    my skills.</p>
+                <br>
+                <p>My other interests include reading, exercising, and investing.</p>
+            </article>
+            <br>
+        </section>
 
-<nav>
-    <div class="links"><a href="#Bio">Bio</a></div>
-    <div class="links"><a href="#Projects">Projects</a></div>
-    <div class="links"><a href="#Contact">Contact</a></div>
-</nav>
-</header> 
-<h2>Full Stack Web Developer</h2>
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Lanikai_2009_wide.jpg"/>
 
 
-<section id="welcome-section" class="sections"><h3>About Me</h3></section>
 
-<article>
-<p>I am a computer programmer who lives in South Florida. I am able to code web pages with HTML, CSS and JavaScript. I have been self teaching my self web development the past six months and continue to hone my skills.</p>
-<br>
-<p>My other interests include reading, exercising, and investing.</p>
-</article>
-<br>
+        <section id="projects" class="sections">
+            <h3>Projects</h3>
+            <div class="project-tile">
+                <div id=#tribute>
+                    <a href='https://codepen.io/vitaetmort/full/JjGBzZN' target="_blank">
+                        <img class="grid-preview-image" loading="lazy" alt=""
+                            src="https://assets.codepen.io/4347424/internal/screenshots/pens/JjGBzZN.default.png?fit=cover&amp;format=auto&amp;ha=false&amp;height=270&amp;quality=75&amp;v=2&amp;version=1608605222&amp;width=480">
+                    </a>
+                   
+                </div>
+                <div class="project-box">Caption Box</div>
 
-</section>
+                <div>
+                    <a href='https://codepen.io/vitaetmort/full/xxOBxrL' target="_blank">
+                        <img class="grid-preview-image" loading="lazy" alt=""
+                            src="https://assets.codepen.io/4347424/internal/screenshots/pens/xxOBxrL.default.png?fit=cover&amp;format=auto&amp;ha=false&amp;height=270&amp;quality=75&amp;v=2&amp;version=1608605201&amp;width=480">
+                    </a>
+                </div>
 
-<section id="Projects" class="sections"><h3>Projects</h3></section>
+                <div>
+                    <a href='https://codepen.io/vitaetmort/full/MWjgvgZ' target="_blank">
+                        <img class="grid-preview-image" loading="lazy" alt=""
+                            src="https://assets.codepen.io/4347424/internal/screenshots/pens/MWjgvgZ.default.png?fit=cover&amp;format=auto&amp;ha=false&amp;height=270&amp;quality=75&amp;v=2&amp;version=1608605170&amp;width=480">
+                    </a>
+                </div>
 
-<section class="likes">
-    <div class="image-container">
-        <div class="likedimages"><img height="214" width="180"src="https://v1.nitrocdn.com/gdQToJpjwmoFSVXcSlvjpaoApjexzIdE/assets/static/source/rev-c3c173a/wp-content/uploads/2020/03/oven-bacon-2-720x1080.jpg"/></div>   
-        <div class="likedimages"><img height="214" width="180"src="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/nightly/logo-lg-high-res.2ae024a36eed.png"/></div>
-        <div class="likedimages"><img height="214" width="180"src="https://enjoyjava.com/wp-content/uploads/2018/01/How-to-make-strong-coffee.jpg"/></div>
-        <div class="likedimages"><img height="214" width="180"src="https://prod-discovery.edx-cdn.org/media/course/image/d64fa565-a848-4f82-8c07-f2a2d98c3e4e-1cf577279324.small.jpeg"/></div>
-        <div class="likedimages"><img height="214" width="180"src="https://www.wired.com/images_blogs/photos/uncategorized/2007/11/14/id_logo180.jpg"/></div>             
+                <div>
+                    <a href='https://codepen.io/vitaetmort/full/NWRPJYx' target="_blank">
+                        <img class="grid-preview-image" loading="lazy" alt=""
+                            src="https://assets.codepen.io/4347424/internal/screenshots/pens/NWRPJYx.default.png?fit=cover&amp;format=auto&amp;ha=true&amp;height=270&amp;quality=75&amp;v=2&amp;version=1608605155&amp;width=480">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <div id="contact-section" class="contact"><strong>Contact</strong></div>
+            <div class="social">
+                <a href="https://www.twitter.com/vitaetmort"><img height="48px" width="48px"
+                        src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/social-twitter-icon.png" /></a>
+                <a href="https://www.github.com/xandre9-git" target="_blank" id="profile-link"><img height="48x"
+                        width="48px" src="https://image.flaticon.com/icons/svg/25/25231.svg" /></a>
+                <a href="mailto:jmjames673@gmail.com"><img height="48x" width="48px"
+                        src="https://www.iconpacks.net/icons/1/free-mail-icon-1008-thumb.png" /></a>
+            </div>
+        </footer>
     </div>
-    <div class="sidebarText"><p>This text box will include a description of my websites I have developed. As you hover over each picture above, the description listed 
-        here will change, providing you a snippet of information.
-    </p>
-    </div>
-</section>    
-   
-       
-
-
-<footer>
-    <div class="contact"><strong>Contact</strong></div>
-    <div class="social">     
-     <a href="https://www.twitter.com/vitaetmort"><img height="48px" width="48px" src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/social-twitter-icon.png"/></a>
-     <a href="https://www.github.com/xandre9-git"><img height="48x" width="48px" src="https://image.flaticon.com/icons/svg/25/25231.svg"/></a>
-     <a href="mailto:jmjames673@gmail.com"><img height="48x" width="48px" src="https://www.iconpacks.net/icons/1/free-mail-icon-1008-thumb.png"/></a>
- </div>  
-</footer>
-</div>
 </body>
+
 </html>
