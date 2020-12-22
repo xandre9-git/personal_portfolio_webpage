@@ -164,13 +164,14 @@ article {
     display: flex;
     flex-flow: column;
     /* align-items: center; */
+    text-align: center;
     
 
 }
 
 .project-tile img {
     display: block;
-    margin-bottom: 10%;
+    margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -182,12 +183,27 @@ article {
     border: solid #52bd86 3px;  
 }
 
+.project-box {
+    display: block;
+    height: 40px;
+    width: 480px;
+    background-color:#3a5054;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: #52bd86;
+    padding-top: 1%;
+}
+
+.project-box div:hover {
+    background-color:#52bd86;
+}
+
 .sections {
 /*     display: flex; */
     /* flex-flow: wrap; */
     justify-content: center;
 }
-
     
 .social {
     display: flex;
